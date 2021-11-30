@@ -1,0 +1,30 @@
+.demo-text-1{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #F85959; */
+    /* color: #FFFFFF; */
+    font-size: 36rpx;
+  }
+  .demo-text-1:before{
+    /* content: 'A'; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.demo-text-2{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #2A90D7; */
+    /* color: #FFFFFF; */
+    font-size: 36rpx;
+  }
+.demo-text-2:before{
+    /* content: 'B'; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

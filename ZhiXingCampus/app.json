@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/newsdetail/newsdetail",
+    "pages/videodetail/videodetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "知行校园",
+    "navigationBarTextStyle":"black"
+  }
+}
+
+

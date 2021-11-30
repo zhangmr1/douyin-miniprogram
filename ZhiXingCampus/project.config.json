@@ -1,0 +1,36 @@
+{
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true
+    },
+    "appid": "tt03dd75609ce4e14b01",
+    "projectname": "myTest",
+    "condition": {
+        "miniprogram": {
+            "current": -1,
+            "list": [
+                {
+                    "id": 1637049143814,
+                    "name": "pages/newsdetail/newsdetail",
+                    "pathName": "pages/newsdetail/newsdetail",
+                    "query": "id=618db854a84fe8024aa5d0fa",
+                    "scene": "",
+                    "launchFrom": "",
+                    "location": ""
+                },
+                {
+                    "id": 1637049333801,
+                    "name": "pages/videodetail/videodetail",
+                    "pathName": "pages/videodetail/videodetail",
+                    "query": "id=618f9847ff77d50237392332",
+                    "scene": "",
+                    "launchFrom": "",
+                    "location": ""
+                }
+            ]
+        }
+    }
+}

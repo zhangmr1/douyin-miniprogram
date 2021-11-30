@@ -1,0 +1,101 @@
+/* .intro {
+  margin: 30px;
+  text-align: center;
+} */
+.page-container{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.news-items{
+  position: relative;
+}
+.news-title {
+  /* color: #fe8d48; */
+  font-size: larger;
+  margin-left: 24rp;
+}
+.news-items{
+  margin-right:30rpx;
+  border-radius:14rpx;
+  width: 100%; 
+  display: inline-block;
+  position: relative;
+  margin-top: 20rpx;
+}
+.news-items image.item_img{
+  width: 160rpx;
+  height: 120rpx;
+  border-radius:15rpx;
+
+}
+.item-content span.title{
+  font-size: large;
+  margin-left: 24rpx;
+  position: absolute;
+  top: 10rpx;
+  left: 22%;
+ } 
+.item-content span.content{
+  font-size: 24rpx;
+  position: absolute;
+  top: 70rpx;
+  left: 25%;
+}
+/* .news-items view.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+  margin-top: 15rpx;
+} */
+.divLine{
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+  margin-top: 15rpx;
+}
+.scroll-container{
+  white-space: nowrap;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  vertical-align:top;
+  /* height: 1000rpx; */
+}
+.slip{
+  font-size: small;
+  color: #90928c;
+  position: absolute;
+  right: 3%;
+  
+}
+
+.news-items{
+  position: relative;
+}
+
+.videos-items{
+  position: relative;
+  padding-top: 4%;
+  height: auto;
+  
+}
+.demo-text-2{
+  padding-left: 3%;
+
+}
+/* 视频标题样式 */
+.item-title{
+  text-align: center;
+  font-size: large;
+  /* padding-left: 5%; */
+  padding-bottom: 5%;
+}
+/* 视频 */
+/* 简介 */
+.item-desc{
+  padding-left: 5%;
+  padding-bottom: 2%;
+  font-size: small;
+}
+

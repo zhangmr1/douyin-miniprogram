@@ -1,0 +1,60 @@
+<view class="page-container">
+  <!-- <view class="test">{{news.result[0].title}}</view> -->
+  <scroll-view class="scroll-container" scroll-x="true" scroll-y="false">
+    
+  
+    <view id="demo1" class="scroll-view-item_H demo-text-1">
+        <!-- 新闻部分 -->
+      <view class="news-container">
+        <span class="news-title">校园头条</span>
+        <span class="slip">&lt&lt&lt左滑查看视频页</span>
+        <view class="choose-card">
+          <block tt:for="{{news.result}}">
+            <view class="news-items" data-bindItem="{{item}}" bindtap="toDetail">
+              <image src="{{item.img}}"  mode="aspectFill" class="item_img"/>
+              <view class="item-content">
+                <span class="title">{{item.title}}<text>\n</text></span>
+                <span class="content">{{item.describe}}</span>
+              </view>
+              <view class="divLine"></view>
+            </view>
+          </block>
+        </view>
+      </view>
+    </view>
+    <view id="demo2" class="scroll-view-item_H demo-text-2">
+          <!-- 视频部分 -->
+      <view class="video-container">
+        <span class="news-title">精选视频</span>
+        <span class="slip">&gt&gt&gt右滑查看新闻页</span>
+        <view class="choose-card">
+          <block tt:for="{{videos.result}}">
+            <view class="videos-items" data-bindItem="{{item}}" bindtap="toVideoDetail">
+              <!-- 视频的三项内容 -->
+              <!-- <image src="{{item.img}}"  mode="aspectFill" class="item_img"/>
+              <view class="item-content">
+                <span class="title">{{item.title}}<text>\n</text></span>
+                <span class="content">{{item.describe}}</span>
+              </view> -->
+              <!-- 标题 -->
+              <view class="item-title">
+                <span id="video-title">{{item.title}}</span>
+              </view>
+              <!-- 描述 -->
+              <view class="item-desc">
+                <span id="video-desc">{{item.describe}}</span>
+              </view>
+              <!-- 视频 -->
+              <view class="item-video">
+                <video id="myVideo" src="{{item.videosrc}}" binderror="videoErrorCallback" style="width: 100%;" show-fullscreen-btn="{{isFullscreen}}" show-play-btn="{{isShowPlayBtn}}" loop="{{isLoopPlay}}" controls="{{isShowControls}}" play-btn-position="{{playBtnPosition}}" object-fit="{{objectFitType}}" poster="{{item.img}}" bindtimeupdate="bindtimeupdate" bindended="bindended" bindplay="bindplay" bindpause="bindpause" bindwaiting="bindwaiting" post-roll-unit-id="{{unitId}}" bindadstart="bindadstart" bindadstart="bindadstart" bindadclose="bindadclose" bindaderror="bindaderror" bindadload="bindadload"></video>
+              </view>
+              
+              <view class="divLine"></view>
+            </view>
+          </block>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  
+</view>

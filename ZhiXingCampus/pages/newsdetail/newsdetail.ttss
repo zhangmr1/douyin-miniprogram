@@ -1,0 +1,31 @@
+/* e:\OpenEuler\myTest\pages\newsdetail\newsdetail.ttss */
+
+.page-container{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.title-container{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    
+}
+.title-container span.news-title{
+    font-size:x-large;
+
+}
+.img-container{
+    text-align: center;
+}
+.img-container image.item_img{
+    width: 610rpx;
+    height: 450rpx;
+    border-radius:15rpx;
+  }
+  .content-container span.news-content{
+      font-size: small;
+      white-space: pre-line;
+
+  }
+
+

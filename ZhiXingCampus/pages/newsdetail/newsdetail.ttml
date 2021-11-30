@@ -1,0 +1,14 @@
+<!-- e:\OpenEuler\myTest\pages\newsdetail\newsdetail.ttml -->
+<!-- <text>e:\OpenEuler\myTest\pages\newsdetail\newsdetail.ttml</text> -->
+
+<view class="page-container">
+    <view class=title-container>
+        <span class="news-title">{{news.title}}</span>
+    </view>
+    <view class="img-container">
+        <image src="{{news.img}}"  mode="aspectFill" class="item_img" bindtap='previewImage'/>
+    </view>
+    <view class="content-container">
+        <span class="news-content">{{news.content}}</span>
+    </view>
+</view>
